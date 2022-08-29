@@ -1,0 +1,1675 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+body{
+    margin: 0 auto;
+    background-color: #DAF5F5;
+    font-family: 'Roboto', sans-serif;
+    color: #577278;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    margin: 10%;
+    position:relative;
+}
+
+.container{
+    background-color: #F7FCFB;
+    border-radius: 15px;
+    width: 547px;
+    height: 498px;
+    margin: auto;
+    position: relative;
+    bottom: 8em;
+    padding: 10px;
+}
+
+.container > h4{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.container > form{
+    text-align: justify;
+    display: inline-block;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 8%;
+    margin-top: -10px;
+}
+
+.container > form p{
+    font-size:16px;
+    line-height: 2.2em;
+}
+
+.container label{
+    line-height: 2.5em;
+}
+
+.container input[type="text"], input[type="password"]{
+    width: 455px;
+    height: 42px;
+    border-radius: 13px;
+    border-color: #577278;
+}
+.container button[type="submit"]{
+    width: 462px;
+    height: 55px;
+    border-radius: 13px;
+    border: none;
+    color: #E4F5F5;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 10%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    background-color: #8FAEAE;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container button[type="submit"]:hover{
+    background-color: #6A8C8C;
+    text-decoration: none;
+}
+
+/*container 2*/
+.container2{
+    background-color: #F7FCFB;
+    border-radius: 15px;
+    width: 547px;
+    height: 350px;
+    margin: auto;
+    position: relative;
+    bottom: 9.5em;
+    padding: 10px;
+}
+
+.container2 > h1{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    margin-left: 2em;
+    padding: 0.5em;
+}
+
+.container2 > p{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: justify;
+    margin-left: 2em;
+    margin-top: -30px;
+    padding: 0.5em;
+}
+
+.container2 > h4{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.container2 a{
+    color: #37757E;
+    font-weight: 400;
+}
+
+
+/*container3*/
+#registrasi-box{
+    width: 547px;
+    height: 820px;
+    margin: auto;
+    position: relative;
+    bottom: 5em;
+    padding: 10px;
+}
+
+#registrasi-box > h4{
+    font-size: 25px;
+    margin: 0;
+    padding: 1.5em;
+}
+
+#registrasi-box > form{
+    display: inline-block;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 8%;
+    margin-top: -25px;
+}
+
+#registrasi-box > form p{
+    font-size: 18px;
+    line-height: 4.5em;
+}
+
+
+/*button logout*/
+#logoutbutton{
+    margin-top: 2em;
+}
+#logoutbutton button[type="submit"]{
+    width: 462px;
+    height: 55px;
+    border-radius: 13px;
+    border: none;
+    color: #E4F5F5;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 2%;
+    margin-left: 1.5em;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    background-color: #8FAEAE;
+    text-decoration: none;
+    cursor: pointer;
+}
+#logoutbutton  button[type="submit"]:hover{
+    background-color: #6A8C8C;
+    text-decoration: none;
+}
+
+
+/*for small mobile*/
+@media only screen and (max-width: 320px){
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 12px;
+        margin-top: 42%;
+        position:relative;
+    }
+    .container{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 220px;
+        height: 240px;
+        position: relative;
+        margin-top: 68%;
+        padding: 10px;
+    }
+    .container > h4{
+        font-size: 12px;
+        padding: 0.4em;
+    }
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    .container > form p{
+        font-size: 10px;
+        line-height: 3.5em;
+    }
+
+    .container label{
+        line-height: 2.8em;
+    }
+
+    .container input[type="text"]{
+        width: 190px;
+        height: 15px;
+    }
+    .container input[type="password"]{
+        width:190px;
+        height:15px;
+    }
+    .container button[type="submit"]{
+        width: 197px;
+        height: 20px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 10px;
+        margin-top: 10%;
+        display: inline-block;
+        padding: 2px;
+    }
+    .container button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 170px;
+        height: 150px;
+        margin-top: 65%;
+        position: relative;
+        padding: 10px;
+    }
+
+    .container2 > h1{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -2px 0 0 0;
+        line-height: 0.25em;
+    }
+
+    .container2 > p{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -8px 0 0 0;
+    }
+
+    .container2 > h4{
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+        margin: 0;
+        line-height: 2em;
+        padding: 0.5em;
+    }
+
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+    /*container3*/
+    #registrasi-box{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 210px;
+        height: 375px;
+        position: relative;
+        margin-top: 45%;
+        padding: 10px;
+    }
+    #registrasi-box > h4{
+        font-size: 11px;
+        padding: 1.5em;
+    }
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 10px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 10px;
+        line-height: 4.5em;
+    }
+
+    #registrasi-box label{
+        line-height: 2.8em;
+    }
+
+    #registrasi-box input[type="text"]{
+        width: 180px;
+        height: 15px;
+    }
+    #registrasi-box input[type="password"]{
+        width: 180px;
+        height: 15px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 189px;
+        height: 20px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 10px;
+        margin-top: 10%;
+        display: inline-block;
+        padding: 2px;
+    }
+    #registrasi-box button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+    
+    /*button logout*/
+    #logoutbutton{
+        text-align: center;
+        margin-top: 10px;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 150px;
+        height: 20px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0;
+        align-items: center;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+}
+
+
+/*for mobile*/
+@media only screen and (min-width: 320px) and (max-width: 410px) {
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 15px;
+        margin-top: 30%;
+        position:relative;
+    }
+    .container{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 270px;
+        height: 320px;
+        position: relative;
+        margin-top: 60%;
+        padding: 10px;
+    }
+    .container > h4{
+        font-size: 15px;
+        padding: 0.5em;
+    }
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 12px;
+        font-weight: 200;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    /*register link*/
+    .container > form p{
+        font-size: 12px;
+        line-height: 4em;
+    }
+
+    .container label{
+        line-height: 3.2em;
+    }
+    .container input[type="text"]{
+        width: 230px;
+        height: 20px;
+    }
+    .container input[type="password"]{
+        width: 230px;
+        height: 20px;
+    }
+    .container button[type="submit"]{
+        width: 235px;
+        height: 30px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 14px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 200px;
+        height: 150px;
+        margin-top: 60%;
+        position: relative;
+        padding: 10px;
+    }
+
+    .container2 > h1{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -2px 0 0 0;
+        line-height: 0.25em;
+    }
+
+    .container2 > p{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -8px 0 0 0;
+    }
+
+    .container2 > h4{
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+        margin:0;
+        line-height: 2em;
+        padding: 0.5em;
+    }
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+    /*container3*/
+    #registrasi-box{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 300px;
+        height: 470px;
+        position: relative;
+        margin-top: 40%;
+        padding: 10px;
+    }
+    #registrasi-box > h4{
+        font-size: 12px;
+        padding: 1.5em;
+    }
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 12px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 12px;
+        line-height: 3.5em;
+    }
+
+    #registrasi-box label{
+        line-height: 3em;
+    }
+    #registrasi-box input[type="text"]{
+        width: 260px;
+        height: 20px;
+    }
+    #registrasi-box input[type="password"]{
+        width: 260px;
+        height: 20px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 268px;
+        height: 25px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 11px;
+        margin-top: 10%;
+        display: inline-block;
+        padding: 4px;
+    }
+    #registrasi-box  button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+    /*button logout*/
+    #logoutbutton{
+        text-align: center;
+        margin-top: 10px;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 178px;
+        height: 20px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0;
+        align-items: center;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 410px) and (max-width: 540px) {
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 30%;
+        position:relative;
+    }
+    .container{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 340px;
+        height: 320px;
+        position: relative;
+        margin-top: 47%;
+        padding: 10px;
+    }
+    .container > h4{
+        font-size: 15px;
+        padding: 0.5em;
+    }
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 12px;
+        font-weight: 200;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    .container > form p{
+        font-size: 12px;
+        line-height: 4em;
+    }
+
+    .container label{
+        line-height: 3.2em;
+    }
+    .container input[type="text"]{
+        width: 295px;
+        height: 20px;
+    }
+    .container input[type="password"]{
+        width: 295px;
+        height: 20px;
+    }
+    .container button[type="submit"]{
+        width: 304px;
+        height: 30px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 14px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 200px;
+        height: 150px;
+        margin-top: 50%;
+        position: relative;
+        padding: 10px;
+    }
+
+    .container2 > h1{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -2px 0 0 0;
+        line-height: 0.25em;
+    }
+
+    .container2 > p{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -8px 0 0 0;
+    }
+
+    .container2 > h4{
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+        margin:0;
+        line-height: 2em;
+        padding: 0.5em;
+    }
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+    #registrasi-box{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 350px;
+        height: 545px;
+        position: relative;
+        margin-top: 32%;
+        padding: 10px;
+    }
+    #registrasi-box > h4{
+        font-size: 14px;
+        padding: 1.5em;
+    }
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 14px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 14px;
+        line-height: 3.5em;
+    }
+
+    #registrasi-box label{
+        line-height: 3em;
+    }
+    #registrasi-box input[type="text"], input[type="password"]{
+        width: 300px;
+        height: 25px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 307px;
+        height: 30px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 18px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    #registrasi-box button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+    /*button logout*/
+    #logoutbutton{
+        text-align: center;
+        margin-top: 10px;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 178px;
+        height: 20px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0;
+        align-items: center;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+  }
+
+  @media only screen and (min-width: 540px) and (max-width: 600px) {
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: 30%;
+        position:relative;
+    }
+    .container{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 340px;
+        height: 340px;
+        position: relative;
+        margin-top: 40%;
+        padding: 10px;
+    }
+    .container > h4{
+        font-size: 15px;
+        padding: 0.5em;
+    }
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 200;
+        margin-left: 5%;
+        margin-top: -10px;
+    }
+
+    .container > form p{
+        font-size: 12px;
+        line-height: 4em;
+    }
+
+    .container label{
+        line-height: 3.2em;
+    }
+    .container input[type="text"]{
+        width: 295px;
+        height: 20px;
+    }
+    .container input[type="password"]{
+        width: 295px;
+        height: 20px;
+    }
+    .container button[type="submit"]{
+        width: 304px;
+        height: 30px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 14px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    .container button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 270px;
+        height: 150px;
+        margin-top: 35%;
+        position: relative;
+        padding: 10px;
+    }
+
+    .container2 > h1{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -2px 0 0 0;
+        line-height: 0.25em;
+    }
+
+    .container2 > p{
+        font-size: 12px;
+        font-weight: 200;
+        text-align: center;
+        margin: -8px 0 0 0;
+    }
+
+    .container2 > h4{
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+        margin:0;
+        line-height: 2em;
+        padding: 0.5em;
+    }
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+    /*container 3*/
+    #registrasi-box{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 400px;
+        height: 635px;
+        position: relative;
+        margin-top: 32%;
+        padding: 10px;
+    }
+    #registrasi-box > h4{
+        font-size: 18px;
+        padding: 1.5em;
+    }
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 15px;
+        line-height: 3.5em;
+    }
+
+
+    #registrasi-box label{
+        line-height: 3em;
+    }
+    #registrasi-box input[type="text"]{
+        width: 350px;
+        height: 30px;
+    }
+    #registrasi-box input[type="password"]{
+        width: 350px;
+        height: 30px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 357px;
+        height: 35px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 18px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    #registrasi-box button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+    /*button logout*/
+    #logoutbutton{
+        text-align: center;
+        margin-top: 10px;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 178px;
+        height: 20px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 10px;
+        font-weight: 100;
+        margin: 0;
+        align-items: center;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+  }
+
+  /*large phone, landscape tablets*/
+  @media only screen and (min-width: 600px) and (max-width:992px){
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 30px;
+        margin-top: 20%;
+        position:relative;
+    }
+    .container{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 380px;
+        height: 400px;
+        position: relative;
+        margin-top: 27%;
+        padding: 10px;
+    }
+    .container > h4{
+        font-size: 18px;
+        padding: 0.3em;
+    }
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 200;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    .container > form p{
+        font-size: 14px;
+        line-height: 4em;
+    }
+
+    .container label{
+        line-height: 3em;
+    }
+    .container input[type="text"]{
+        width: 335px;
+        height: 28px;
+    }
+    .container input[type="password"]{
+        width: 335px;
+        height: 28px;
+    }
+    .container button[type="submit"]{
+        width: 342px;
+        height: 45px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 20px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    .container button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 380px;
+        height: 200px;
+        margin-top: 35%;
+        position: relative;
+        padding: 10px;
+    }
+        
+    .container2 > h1{
+        font-size: 16px;
+        font-weight: 200;
+        text-align: center;
+        margin: -2px 0 0 0;
+        line-height: 0.25em;
+    }
+        
+    .container2 > p{
+        font-size: 16px;
+        font-weight: 200;
+        text-align: center;
+        margin: -8px 0 0 0;
+    }
+
+    .container2 > h4{
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        margin:0;
+        line-height: 2em;
+        padding: 0.5em;
+    }
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+
+    /*container 3*/
+    #registrasi-box{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 420px;
+        height: 650px;
+        position: relative;
+        margin-top: 20%;
+        padding: 10px;
+    }
+    #registrasi-box > h4{
+        font-size: 18px;
+        padding: 1.5em;
+    }
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 16px;
+        line-height: 3.5em;
+    }
+
+    #registrasi-box label{
+        line-height: 3em;
+    }
+    #registrasi-box input[type="text"]{
+        width: 365px;
+        height: 30px;
+    }
+    #registrasi-box input[type="password"]{
+        width: 365px;
+        height: 30px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 374px;
+        height: 35px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 18px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    #registrasi-box button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+    #logoutbutton{
+        text-align: center;
+        margin-top: 15px;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 342px;
+        height: 45px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 20px;
+        font-weight: 100;
+        margin: 0;
+        align-items: center;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+  }
+
+  /*for large devices aka laptops/desktops 992px and up*/
+  @media only screen and (min-width: 992px) and (max-width:1200px){
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 35px;
+        margin-top: 20%;
+        position:relative;
+    }
+    .container{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 380px;
+        height: 400px;
+        position: relative;
+        margin-top: 23%;
+        padding: 10px;
+    }
+    .container > h4{
+        font-size: 18px;
+        padding: 0.3em;
+    }
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 15px;
+        font-weight: 200;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    .container > form p{
+        font-size: 14px;
+        line-height: 4em;
+    }
+
+    .container label{
+        line-height: 3em;
+    }
+    .container input[type="text"], input[type="password"]{
+        width: 335px;
+        height: 28px;
+    }
+    .container button[type="submit"]{
+        width: 342px;
+        height: 45px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 20px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    .container button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 380px;
+        height: 200px;
+        margin-top: 20%;
+        position: relative;
+        padding: 10px;
+    }
+        
+    .container2 > h1{
+        font-size: 16px;
+        font-weight: 200;
+        text-align: center;
+        margin: -2px 0 0 0;
+        line-height: 0.25em;
+    }
+        
+    .container2 > p{
+        font-size: 16px;
+        font-weight: 200;
+        text-align: center;
+        margin: -8px 0 0 0;
+    }
+
+    .container2 > h4{
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        margin:0;
+        line-height: 2em;
+        padding: 0.5em;
+    }
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+    /*container 3*/
+    #registrasi-box{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 420px;
+        height: 650px;
+        position: relative;
+        margin-top: 15%;
+        padding: 10px;
+    }
+    #registrasi-box > h4{
+        font-size: 18px;
+        padding: 1.5em;
+    }
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 16px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 16px;
+        line-height: 3.5em;
+    }
+
+    #registrasi-box label{
+        line-height: 3em;
+    }
+    #registrasi-box input[type="text"]{
+        width: 360px;
+        height: 30px;
+    }
+    #registrasi-box input[type="password"]{
+        width: 360px;
+        height: 30px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 365px;
+        height: 35px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 18px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    #registrasi-box button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+    
+
+    #logoutbutton{
+        text-align: center;
+        margin-top: 15px;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 342px;
+        height: 45px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 20px;
+        font-weight: 100;
+        margin: 0;
+        align-items: center;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+  }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+    body{
+        margin: 0 auto;
+    }
+
+    h2{
+        font-size: 40px;
+        margin: 10%;
+        position:relative;
+    }
+
+    .container{
+        width: 547px;
+        height: 498px;
+        margin: auto;
+        position: relative;
+        bottom: 5em;
+        padding: 10px;
+    }
+
+    .container > h4{
+        font-size: 25px;
+        margin: 0;
+        padding: 0.9em;
+    }
+
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 25px;
+        font-weight: 200;
+        margin-left: 8%;
+        margin-top: -25px;
+    }
+
+    .container > form p{
+        font-size: 18px;
+        line-height: 4.5em;
+    }
+
+    .container label{
+        line-height: 3em;
+    }
+
+    .container input[type="text"], input[type="password"]{
+        width: 455px;
+        height: 42px;
+        border-radius: 13px;
+        border-color: #577278;
+    }
+    .container button[type="submit"]{
+        width: 462px;
+        height: 55px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 10%;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .container button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 547px;
+        height: 350px;
+        margin: auto;
+        position: relative;
+        bottom: 4em;
+        padding: 10px;
+    }
+
+    .container2 > h1{
+        font-size: 20px;
+        font-weight: 200;
+        text-align: justify;
+        margin-left: 2.5em;
+        padding: 0.5em;
+        line-height: 2em;
+    }
+
+    .container2 > p{
+        font-size: 20px;
+        font-weight: 200;
+        text-align: justify;
+        margin-left: 2.5em;
+        margin-top: -30px;
+        padding: 0.5em;
+    }
+
+    .container2 > h4{
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+
+    /*container 3*/
+    #registrasi-box{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 520px;
+        height: 710px;
+        position: relative;
+        margin-top: 15%;
+        padding: 10px;
+    }
+    #registrasi-box > h4{
+        font-size: 20px;
+        padding: 1.5em;
+    }
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 18px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 18px;
+        line-height: 3.5em;
+    }
+
+    #registrasi-box label{
+        line-height: 3em;
+    }
+    #registrasi-box input[type="text"]{
+        width: 450px;
+        height: 30px;
+    }
+    #registrasi-box input[type="password"]{
+        width: 450px;
+        height: 30px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 457px;
+        height: 40px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 20px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    #registrasi-box button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+
+    
+    /*button logout*/
+    #logoutbutton{
+        margin-top: 2.5em;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 462px;
+        height: 55px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 2%;
+        margin-left: 1.5em;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+}
+
+/*for 1280px and up*/
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+    body{
+        margin: 0 auto;
+    }
+
+    h2{
+        font-size: 40px;
+        margin: 10%;
+        position:relative;
+    }
+
+    .container{
+        width: 547px;
+        height: 530px;
+        margin: auto;
+        position: relative;
+        bottom: 5em;
+        padding: 10px;
+    }
+
+    .container > h4{
+        font-size: 25px;
+        margin: 0;
+        padding: 1.5em;
+    }
+
+    .container > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 25px;
+        font-weight: 200;
+        margin-left: 8%;
+        margin-top: -25px;
+    }
+
+    .container > form p{
+        font-size: 18px;
+        line-height: 4.5em;
+    }
+
+    .container label{
+        line-height: 3em;
+    }
+
+    .container input[type="text"], input[type="password"]{
+        width: 455px;
+        height: 42px;
+        border-radius: 13px;
+        border-color: #577278;
+    }
+    .container button[type="submit"]{
+        width: 462px;
+        height: 55px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 10%;
+        display: inline-block;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .container button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+    
+
+    /*container 2*/
+    .container2{
+        background-color: #F7FCFB;
+        border-radius: 15px;
+        width: 547px;
+        height: 350px;
+        margin: auto;
+        position: relative;
+        bottom: 5em;
+        padding: 10px;
+    }
+
+    .container2 > h1{
+        font-size: 20px;
+        font-weight: 200;
+        text-align: justify;
+        margin-left: 2.5em;
+        padding: 0.5em;
+        line-height: 2em;
+    }
+
+    .container2 > p{
+        font-size: 20px;
+        font-weight: 200;
+        text-align: justify;
+        margin-left: 2.5em;
+        margin-top: -30px;
+        padding: 0.5em;
+    }
+
+    .container2 > h4{
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .container2 a{
+        color: #37757E;
+        font-weight: 400;
+    }
+
+
+    /*container3*/
+    #registrasi-box{
+        width: 547px;
+        height: 850px;
+        margin: auto;
+        position: relative;
+        bottom: 5em;
+        padding: 10px;
+    }
+
+    #registrasi-box > h4{
+        font-size: 25px;
+        margin: 0;
+        padding: 1.5em;
+    }
+
+    #registrasi-box > form{
+        display: inline-block;
+        padding: 0;
+        font-size: 25px;
+        font-weight: 200;
+        margin-left: 8%;
+        margin-top: -25px;
+    }
+
+    #registrasi-box > form p{
+        font-size: 20px;
+        line-height: 4.5em;
+    }
+
+    #registrasi-box label{
+        line-height: 3em;
+    }
+    #registrasi-box input[type="text"]{
+        width: 450px;
+        height: 30px;
+    }
+    #registrasi-box input[type="password"]{
+        width: 450px;
+        height: 30px;
+    }
+    #registrasi-box button[type="submit"]{
+        width: 457px;
+        height: 40px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 20px;
+        margin-top: 12%;
+        display: inline-block;
+        padding: 5px;
+    }
+    #registrasi-box button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+
+
+    /*button logout*/
+    #logoutbutton{
+        margin-top: 2.5em;
+    }
+    #logoutbutton button[type="submit"]{
+        width: 462px;
+        height: 55px;
+        border-radius: 13px;
+        border: none;
+        color: #E4F5F5;
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 2%;
+        margin-left: 1.5em;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        background-color: #8FAEAE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #logoutbutton button[type="submit"]:hover{
+        background-color: #6A8C8C;
+        text-decoration: none;
+    }
+}

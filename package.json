@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@": "gustavoquinalha/alerts-css",
+    "@eonasdan/tempus-dominus": "^6.0.0-beta1",
+    "jquery-datetimepicker": "^2.5.21"
+  }
+}
